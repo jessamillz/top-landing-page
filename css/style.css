@@ -23,21 +23,129 @@
 /*******************************************/
 
 body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
 
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Charm", "Roboto", Arial, Helvetica, sans-serif;
 }
 
 
 /******************************************
 /* LAYOUT
 /*******************************************/
+.hero {
+    width: 100%;
+    padding: 20px 100px;
+    justify-items: center;
+}
 header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    justify-self: flex-start;
+}
+nav {
 
 }
-
+.nav-links {
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.hero-main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+.hero-text {
+    
+}
+.hero-side-image {
+    margin-left: 300px;
+}
+.information-cards {
+    display: flex;
+    align-items: center;
+    align-content: center;
+}
+.card-image {
+    height: 100%;
+    width: 100%;
+    border: 2px solid navy; 
+}
+main {
+    width: 100%;
+    justify-items: center;
+}
+.quote {
+    padding: 50px 25%;
+}
+.call-to-action {
+    margin: 75px 50px;
+    padding: 25px;
+    border-radius: 10px;
+    display: flex;
+}
 footer {
-
+    width: 100%;
 }
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+.hero-head-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+/* Hero and footer background color */
+.hero, footer {
+    background-color: #1f2937;
+}
+.header-logo-text {
+    font-size: 24px;
+    color: #f9faf8;
+}
+/* Hero secondary text, header link text */
+.hero-secondary-text, .nav-links {
+    font-size: 18px;
+}
+
+.information-header-text {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+}
+
+.call-to-action-head-text, footer, .hero-secondary-text, .nav-links {
+    color: #e5e7eb;
+}
+button, .call-to-action {
+    background-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+blockquote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+}
+
