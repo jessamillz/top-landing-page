@@ -43,7 +43,7 @@ ul {
 /*******************************************/
 .hero {
     width: 100%;
-    padding: 20px 100px;
+    padding: 20px 200px;
     justify-items: center;
 }
 header {
@@ -93,7 +93,7 @@ nav {
 .card-image {
     height: 125px;
     width: 125px;
-    border: 2px solid navy; 
+    border: 2px solid #3882f6; 
     border-radius: 5px;
 }
 main {
@@ -104,11 +104,17 @@ main {
     padding: 50px 25%;
 }
 .call-to-action {
-    margin: 75px 50px;
-    padding: 25px;
+    margin: 75px 0;
+    width: 75%;
     border-radius: 10px;
     display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
+.call-to-action-text {
+    text-align: left;
+}
+
 footer {
     width: 100%;
 }
@@ -140,11 +146,21 @@ footer {
     font-weight: 900;
 }
 
-.call-to-action-head-text, footer, .hero-secondary-text, .nav-links {
+.call-to-action, .call-to-action-button, footer, .hero-secondary-text, .nav-links {
     color: #e5e7eb;
 }
 button, .call-to-action {
     background-color: #3882f6;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.call-to-action-button {
+    border: #e5e7eb solid 2px;
 }
 
 .quote {
